@@ -1,0 +1,23 @@
+:root {
+	--primary-color: rgb(30, 17, 103);
+	--secondary-color: #ddd;
+	--border-color: #dcdcdc;
+}
+
+.main_wrapper {
+	padding-top: 80px;
+	.wrap_inner_data{
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 70%;
+		margin: 0 auto;
+		.side_bar{
+			width: 250px;
+		}
+		.main_content_area{
+			width: calc(100% - 250px);
+		}
+	}
+	
+}
+

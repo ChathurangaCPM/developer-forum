@@ -1,0 +1,17 @@
+.single_question_wrapper{
+    border:1px solid var(--secondary-color);
+    border-radius: 20px;
+    .header_wrap{
+        .profile{
+            display: flex;
+            align-items: center;
+            .pro_img{
+                width: 80px;
+                height: 80px;
+                overflow: hidden;
+                border-radius: 100%;
+                
+            }
+        }
+    }
+}

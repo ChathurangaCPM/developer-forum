@@ -1,0 +1,27 @@
+.single_question_wrapper{
+    border:1px solid var(--secondary-color);
+    border-radius: 20px;
+    .header_wrap{
+        .profile{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            .pro_img{
+                width: 55px;
+                height: 55px;
+                overflow: hidden;
+                border-radius: 100%;
+            }
+            span{
+                display: block;
+                padding-left: 10px;
+            }
+            .tag{
+                display: block;
+                padding: 3px 10px;
+                border-radius: 5px;
+                background: #555;
+            }
+        }
+    }
+}

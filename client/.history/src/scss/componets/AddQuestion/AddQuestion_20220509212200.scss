@@ -1,0 +1,31 @@
+.addquestion_wrapper{
+    form{
+        width: 100%;
+        textarea{
+            width: calc(100% - 40px);
+            border: none;
+            background: var(--border-color);
+            padding: 20px;
+            outline: none;
+            border-radius: 15px;
+        }
+
+        .selrct_cat{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            select{
+                border: 1px solid var(--border-color);
+                padding: 10px;
+            }
+            button{
+                width: 150px;
+                background: var(--primary-color);
+                border: none;
+                padding: 15px;
+                color: #fff;
+                border-radius: 10px;
+            }
+        }
+    }
+}

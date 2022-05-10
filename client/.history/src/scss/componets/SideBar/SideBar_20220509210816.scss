@@ -1,0 +1,13 @@
+.main_sidebar_wrapper{
+    .menu_area{
+        ul{
+            padding: 0;
+            list-style: none;
+            margin: 0;
+            li{
+                color: var(--primary-color);
+                font-weight: 600;
+            }
+        }
+    }
+}

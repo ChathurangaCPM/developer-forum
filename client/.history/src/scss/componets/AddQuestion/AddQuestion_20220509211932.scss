@@ -1,0 +1,22 @@
+.addquestion_wrapper{
+    form{
+        width: 100%;
+        textarea{
+            width: 100%;
+            border: none;
+            background: var(--border-color);
+            padding: 20px;
+            outline: none;
+            border-radius: 15px;
+        }
+
+        .selrct_cat{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            button{
+                width: 150px;
+            }
+        }
+    }
+}

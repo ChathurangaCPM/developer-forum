@@ -1,0 +1,11 @@
+.addquestion_wrapper{
+    form{
+        width: 100%;
+        textarea{
+            width: 100%;
+            border: none;
+            background: var(--border-color);
+            padding: 20px;
+        }
+    }
+}
